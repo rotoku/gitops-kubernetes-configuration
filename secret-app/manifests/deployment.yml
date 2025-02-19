@@ -1,4 +1,3 @@
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -40,6 +39,4 @@ spec:
           secretName: mysql-credentials
       - name: paypal
         secret:
-          secretName: paypal-cert         
-  
-           
+          secretName: paypal-cert
